@@ -1,0 +1,12 @@
+{
+  "command": ".venv/bin/python scripts/execute_notebook.py",
+  "started_at_utc": "2026-10-17T20:34:48.791546+00:00",
+  "kernel": "fresh project-local spendgame kernel",
+  "python": "3.13.0 (main, Oct  7 2024, 05:02:14) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "status": "success",
+  "scope": "Phase 0 evidence audit and initial financial inventory only",
+  "completed_at_utc": "2026-10-17T20:35:26.346216+00:00",
+  "executed_code_cells": 7,
+  "notebook_sha256": "84eef1e1366ce181e354a3e5c5fc3302959f7e006f5adf64a1be6324fe9cadf4",
+  "inventory_sha256": "a6ca1f5898e617da04b95329e7bcc50d9cb29d74fda9f3667919b23ecc281c29"
+}

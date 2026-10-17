@@ -1,0 +1,42 @@
+{
+  "as_of_date": "2026-10-17",
+  "stage": "phase_0_financial_inventory",
+  "evidence_class": "scenario_assumption",
+  "candidate_start_year": 2018,
+  "candidate_end_year": 2025,
+  "window_status": "catalog_verified; comparability and outcome joins pending",
+  "population": "EADA sector_cd=1 and ClassificationCode in [1,2,3]; review campus and sport membership before analysis",
+  "target_institutions": [40, 80],
+  "minimum_institutions": 30,
+  "minimum_seasons": 5,
+  "minimum_detailed_sports": 4,
+  "minimum_womens_sports": 2,
+  "sports": [
+    {"id": "football_men", "eada_label": "Football", "gender": "MEN"},
+    {"id": "basketball_men", "eada_label": "Basketball", "gender": "MEN"},
+    {"id": "basketball_women", "eada_label": "Basketball", "gender": "WOMEN"},
+    {"id": "baseball_men", "eada_label": "Baseball", "gender": "MEN"},
+    {"id": "softball_women", "eada_label": "Softball", "gender": "WOMEN"},
+    {"id": "volleyball_women", "eada_label": "Volleyball", "gender": "WOMEN"}
+  ],
+  "protected_other_sports": true,
+  "missing_input_policy": "No imputation at inventory stage; blank remains unknown, zero remains zero; sponsorship must be verified separately",
+  "historical_modeling_enabled": false,
+  "snapshot_estimates_enter_historical_panel": false,
+  "seed": 20261017,
+  "hypotheses": {
+    "H1": "Absolute vs absolute plus leave-one-out peer-relative resources; identical observations and validation folds",
+    "H2": "Linear vs log vs low-complexity spline returns; curvature must be tested",
+    "H3": "Conditional simulation: best responses vs feasible planner benchmark; allow reserve",
+    "H4": "Conditional simulation: vary objectives and resources across generic profiles",
+    "H5": "Exploratory subsequent applications and enrollment associations, not causal recruitment ROI"
+  },
+  "provisional_validation": {
+    "latest_two_complete_joined_seasons": "untouched final holdout; assign only after availability audit",
+    "earlier_seasons": "rolling-origin training and selection; training-only preprocessing and coaching proxies",
+    "uncertainty": "school-cluster bootstrap with fixed seed; common-season-effect sensitivity",
+    "pandemic": "show inclusion and exclusion; cancellations remain missing",
+    "peers": "year- and sport-specific conference/schedule peers, not current conference labels",
+    "freeze_before_fitting": true
+  }
+}

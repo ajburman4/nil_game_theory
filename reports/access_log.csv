@@ -1,0 +1,12 @@
+as_of_date,source_id,url,method,result,note
+2026-10-17,eada_catalog,https://ope.ed.gov/athletics/api/dataFiles/fileList,curl direct official endpoint,retrieved,Endpoint found in official interface JavaScript; catalog saved with checksum.
+2026-10-17,congress_actions,https://www.congress.gov/bill/119th-congress/senate-bill/4668/all-actions,web open,inaccessible,Not successfully inspected.
+2026-10-17,pcsa_es,https://www.govinfo.gov/app/details/BILLS-119s4668es,web open,reviewed,Senate-engrossed version and 2026-09-28 last action listed; not live status.
+2026-10-17,senate_vote,https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00250.htm,web open,reviewed,"Passage on 2026-09-28, 77-22."
+2026-10-17,ncaa_feb2026_qa,https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf,web PDF extraction,reviewed,D1-D9; 2025-26 cap; growth rule; offsets; current year not certified.
+2026-10-17,ncaa_results,https://stats.ncaa.org/,web open,inaccessible,Official school/conference pages are a permitted fallback to audit next.
+2026-10-17,ipeds,https://nces.ed.gov/ipeds/use-the-data,web open,inaccessible,No extracts acquired.
+2026-10-17,athletic_optional,https://www.nytimes.com/athletic/interactive/college-football-nil-spending-budgets/,web open,inaccessible,Optional; no source values or methodology inspected.
+2026-10-17,csc,https://www.collegesportscommission.org/,web open and public HTML curl,partial,Landing page fetched; no official current-year cap document inspected.
+2026-10-17,congress_actions,https://www.govinfo.gov/app/collection/plaw/119,web open,inaccessible,Public-law collection request failed; not evidence no law exists.
+2026-10-17,congress_actions,https://www.congress.gov/crs-product/LSB11484,web open,inaccessible,Candidate official CRS product page not successfully inspected; no source claim.
